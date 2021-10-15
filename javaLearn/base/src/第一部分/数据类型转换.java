@@ -4,9 +4,11 @@ public class 数据类型转换
 {
     public static void main(String[] args)
     {
-        int a = 155;
-        double b = 1.23;
-        System.out.println(b);
+        int a=5;
+        double b=10.5;
         System.out.println(a);
+        System.out.println((int)b);
+
+
     }
 }
