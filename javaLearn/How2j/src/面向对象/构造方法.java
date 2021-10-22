@@ -35,15 +35,19 @@ class makeSon extends make
 
     makeSon(String name,int age,double height)
     {
+        super(name,age);
         this.height=height;
-        this.age=age;
-        this.name=name;
         System.out.println("调用子类有参构造");
     }
 
     public void say()
     {
         System.out.printf("我是%s,%d岁了,%fcm高\n",this.name,this.age,this.height);
+    }
+
+    public void hello()
+    {
+        System.out.println("子类新的覆盖父类的方法");
     }
 }
 
