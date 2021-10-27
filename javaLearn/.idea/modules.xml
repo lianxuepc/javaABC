@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/How2j/Base.iml" filepath="$PROJECT_DIR$/How2j/Base.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaLearn.iml" filepath="$PROJECT_DIR$/javaLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/middle/middle.iml" filepath="$PROJECT_DIR$/middle/middle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
     </modules>
   </component>
 </project>
