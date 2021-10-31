@@ -4,13 +4,15 @@ public class main
 {
     public static void main(String[] args)
     {
-        int i=10;
-        teach t=new teach();
+        int i = 10;
+        teach t = new teach();
+        student s = new student();
+
         try
         {
-            t.check(i);
+            s.fun(i);
         }
-        catch (scoreException e)
+        catch (studentException e)
         {
             e.printStackTrace();
         }
