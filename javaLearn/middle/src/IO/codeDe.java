@@ -1,10 +1,11 @@
 package IO;
 
+import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 
 public class codeDe
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws UnsupportedEncodingException
     {
         String str="中国";
         byte[] bytes=new byte[1024];
@@ -14,8 +15,7 @@ public class codeDe
         {
             System.out.println(b);
         }
-
-        String bm=new String(bytes);
+        String bm=new String(bytes,"UTF-8");
         System.out.println(bm);
 
     }
