@@ -1,27 +1,20 @@
-
-//class t
-//{
-//    int fun(char[] cs)
-//    {
-//        int i=0;
-//        for(char c:cs)
-//        {
-//
-//        }
-//    }
-//}
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class test
 {
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
-        int i=0;
-        char[] cs=new char[1024];
+        FileReader fr=new FileReader("fos.txt");
+        FileWriter fw=new FileWriter("fos.txt");
 
-        for(char c:cs)
-        {
-            if(c=='\0') i++;
-        }
-        System.out.println(i);
+        fw.write("asdfasfdasdf");
+        fw.close();
+        System.out.println((char)fr.read());
+
+
+        fr.close();
     }
 }
